@@ -1,0 +1,1 @@
+import argparseparser = argparse.ArgumentParser(description="This is a example program ")# parser.add_argument("echo",help="echo the string")parser.add_argument("-i", "--images", required=True, help="path to images directory")args = parser.parse_args()print(args)

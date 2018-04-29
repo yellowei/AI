@@ -1,0 +1,1 @@
+import matplotlibmatplotlib.use('TkAgg')import matplotlib.pyplot as pltimport cv2plt.plot([1, 2, 3], [4, 5, 6])plt.show()cv2.imread("1213.jpg")cv2.imshow()
