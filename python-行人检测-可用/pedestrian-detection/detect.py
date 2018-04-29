@@ -20,6 +20,8 @@ hog = cv2.HOGDescriptor()
 hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
 
 # loop over the image paths
+print(args["images"])
+# imagePaths = list(paths.list_images('./images/'))
 imagePaths = list(paths.list_images(args["images"]))
 
 for imagePath in imagePaths:
